@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>前端面试高频题 | 人间观察者</title>
+<title>威派格笔校招笔试题和面试题 | 人间观察者</title>
 
 <link rel="shortcut icon" href="https://bailixiyuan.github.io/favicon.ico?v=1616764929739">
 
@@ -202,58 +202,127 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    前端面试高频题
+                    威派格笔校招笔试题和面试题
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2021-03-24 ·
+                        · 2021-03-26 ·
                     </time>
                     
-                        <a href="https://bailixiyuan.github.io/tag/8ArfGDtGP/" class="post-tags">
-                            # 前端面试题
+                        <a href="https://bailixiyuan.github.io/tag/ERoQoeAeq/" class="post-tags">
+                            # 笔试面试
                         </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>1.浏览器内核：Chrome/Safari:webkit firefox:Gecko IE:Trident   国内浏览器360，搜狗等：Trident+webkit 内核不同css默认样式解析方法不同<br>
-2.Ajax请求的五个步骤：<br>
-（1）.创建一个XMLHttpRequest异步对象<br>
-（2）.设置请求方式和地址 open()<br>
-（3）接着用send()发送请求<br>
-（4）监听状态变化onreadystatechange<br>
-3.css元素居中问题：<br>
-水平居中：<br>
-1、给元素添加text-align:center,使文字元素水平居中。<br>
-2、使文本垂直居中，使行高与容器高度一致，即可达到垂直居中的效果。<br>
-给css样式里添加line-height:100px;<br>
-垂直水平居中：<br>
-1、使用定位的方法来使元素居中。<br>
-a、给父元素添加属性position:relative;来作为参照物。<br>
-b、给子元素添加属性position:absolute；来定位子元素。<br>
-3、使用弹性盒子使元素居中（推荐移动端使用）<br>
-给父元素增加display : flex;使父元素转化为弹性盒子；<br>
-1）通过父元素属性来控制子元素位置<br>
-父元素添加属性设置主轴(默认为x轴)对齐方式：justify-content:center;<br>
-侧轴（默认为Y轴）对齐方式:align-items:center;<br>
-即可使子元素居中<br>
-2）通过子元素属性来控制子元素位置<br>
-子元素添加属性：margin:auto;即可居中</p>
-<p>4.=是赋值操作，==先转换类型再比较，===先判断类型，如果不是同一类型直接为false。<br>
-5.  DOCTYPE是document type (文档类型) 的缩写。<!DOCTYPE >声明位于文档的最前面，处于标签之前，它不是html标签。主要作用是告诉浏览器的解析器使用哪种HTML规范或者XHTML规范来解析页面。<br>
-6.  简述cookies和session的区别：<br>
-7.  1、cookie 和session的区别是：cookie数据保存在客户端，session数据保存在服务器端。</p>
-<p>2、两个都可以用来存私密的东西，同样也都有有效期的说法,区别在于session是放在服务器上的，过期与否取决于服务期的设定，cookie是存在客户端的，过去与否可以在cookie生成的时候设置进去。</p>
-<p>(1)、cookie数据存放在客户的浏览器上，session数据放在服务器上 ；</p>
-<p>(2)、cookie不是很安全，别人可以分析存放在本地的COOKIE并进行COOKIE欺骗,如果主要考虑到安全应当使用session ；</p>
-<p>(3)、session会在一定时间内保存在服务器上。当访问增多，会比较占用你服务器的性能，如果主要考虑到减轻服务器性能方面，应当使用COOKIE ；</p>
-<p>(4)、单个cookie在客户端的限制是3K，就是说一个站点在客户端存放的COOKIE不能3K；</p>
-<p>(5)、所以将登陆信息等重要信息存放为SESSION;其他信息如果需要保留，可以放在COOKIE中。</p>
-<p>3、cookie和session的共同之处在于：cookie和session都是用来跟踪浏览器用户身份的会话方式。</p>
-<p>4、cookie 是一种发送到客户浏览器的文本串句柄，并保存在客户机硬盘上，可以用来在某个WEB站点会话间持久的保持数据。<br>
-5、ession其实指的就是访问者从到达某个特定主页到离开为止的那段时间。 Session其实是利用Cookie进行信息处理的，当用户首先进行了请求后，服务端就在用户浏览器上创建了一个Cookie，当这个Session结束时，其实就是意味着这个Cookie就过期了。<br>
-6.跨域问题：想要从数据系统的接口中获得数据，我常用的有两种方式：<br>
-若使用前端 ajax 获取数据，常用的解决方式是使用 jsonp 实现跨域请求<br>
-若从后台程序中获取数据，使用corsheaders</p>
+                    <ol>
+<li><img src="https://bailixiyuan.github.io/post-images/1616741084321.jpg" alt="" loading="lazy"><br>
+【3】ABCD.盒子模型分为IE盒模型和普通盒模型，普通盒模型的宽计算为width加padding加border加margin，而IE盒模型的宽计算就是width，不包括padding及向外的值。<br>
+【4】B<br>
+js数组操作:<br>
+concat()合并两个数组<br>
+join(separator)返回一个字符串。该字符串是通过把 arrayObject 的每个元素转换为字符串，然后把这些字符串连接起来，在两个元素之间插入 separator 字符串而生成的。<br>
+pop()删除数组的最后一个元素.<br>
+push()数组末尾添加新的元素<br>
+reverse 将一个数组中的元素的顺序反转排序<br>
+shift()删除数组的第一个元素<br>
+unshfit()在数组开头添加新元素<br>
+slice(1,3)截取数组下标 1 到 2 的元素<br>
+sort(function(a,b){return b-a}) b-a  数字降序排列 a-b 数字升序排列 sort()          升序排列数组(字母)<br>
+splice(index,howmany,item1, ..., itemX) 方法可删除从 index 处开始的homany(零个或多)个元素，并且用参数列表中声明的一个或多个值来替换那些被删除的元素。<br>
+请注意，splice() 方法与 slice() 方法的作用是不同的，splice() 方法会直接对数组进行修改，返回删除元素数组。<br>
+toString() 方法可把数组转换为字符串，并返回结果。<br>
+<img src="https://bailixiyuan.github.io/post-images/1616744096327.jpg" alt="" loading="lazy"><br>
+<img src="https://bailixiyuan.github.io/post-images/1616744519158.jpg" alt="" loading="lazy"><br>
+【8】c<br>
+【10】正则+ 号代表前面的字符必须至少出现一次（1次或多次）；* 号代表前面的字符可以不出现，也可以出现一次或者多次（0次、或1次、或多次）。<br>
+<img src="https://bailixiyuan.github.io/post-images/1616746836492.jpg" alt="" loading="lazy"><br>
+填空题1： fdbace我们来看一下css选择器优先级的算法：<br>
+每个规则对应一个初始&quot;四位数&quot;：0、0、0、0<br>
+若是行内选择符，则加1、0、0、0<br>
+若是ID选择符，则加0、1、0、0<br>
+若是类选择符/伪类选择符，则分别加0、0、1、0<br>
+若是元素选择符，则分别加0、0、0、1<br>
+算法：将每条规则中，选择符对应的数相加后得到的”四位数“，从左到右进行比较，大的优先级越高<br>
+1.id选择器（#myid）<br>
+2.类选择器（.myclassname）<br>
+3.标签选择器（div,h1,p）<br>
+4.子选择器（ul&lt;li）<br>
+5.后代选择器（li a）<br>
+6.伪类选择（a:hover,li:nth-child）<br>
+最后，需要注意的是：<br>
+!important的优先级是最高的(其次是内联)，但出现冲突时则需比较”四位数“;<br>
+优先级相同时，则采用就近原则，选择最后出现的样式;<br>
+继承得来的属性，其优先级最低。<br>
+a)0010+0010 +0001<br>
+b)0010+0010+0001+0001<br>
+c)0010+0001<br>
+d)0100+0100<br>
+e)0010<br>
+f)1000<br>
+<img src="https://bailixiyuan.github.io/post-images/1616762046912.jpg" alt="" loading="lazy"><br>
+【2】（3）toUpCase() toLowerCase()<br>
+【3】https://www.runoob.com/w3cnote/js-call-apply-bind.html<br>
+【5】40，50 （splice返回删除元素数组）10，20，30，60，70<br>
+三，简答题：<br>
+原生js:<br>
+var div = document.createElement('div');<br>
+div.class=&quot;my-class&quot;;<br>
+div.style.cssText = 'border:1px solid red;background-color:red; width:100px; height:100px;';<br>
+document.body.appendChild(div);<br>
+jquery:<br>
+var div1=$(&quot;<div ></div>&quot;);<br>
+div1.addClass(&quot;myclass&quot;);<br>
+div1.css({&quot;background-color&quot;:&quot;red&quot;,&quot;width&quot;:&quot;100px&quot;,&quot;height&quot;:&quot;100px&quot;});<br>
+$(&quot;body&quot;).append(div1);<br>
+<img src="https://bailixiyuan.github.io/post-images/1616762145460.jpg" alt="" loading="lazy"><br>
+2.方法一：</li>
+</ol>
+<p>在父元素上设置</p>
+<p>display:table;<br>
+在子元素(div)上设置<br>
+display:table-cell;<br>
+vertical-align:middle;<br>
+方法二：</p>
+<p>简单粗暴，直接在父元素上设置</p>
+<p>/<strong>垂直居中</strong>/<br>
+align-items:center; display: -webkit-flex;<br>
+/<strong>水平居中</strong>/<br>
+justify-content:center; display: -webkit-flex;<br>
+3.	function fun1(arr)<br>
+{<br>
+var newArr=[];<br>
+for(var i=0;i&lt;arr.length;i++)<br>
+{<br>
+if(newArr.indexOf(arr[i])==-1)<br>
+{<br>
+newArr.push(arr[i]);<br>
+}<br>
+}<br>
+return newArr;<br>
+}</p>
+<pre><code> function fun1()
+</code></pre>
+<p>{<br>
+var n = {},r=[]; //n为hash表，r为临时数组<br>
+for(var i = 0; i &lt; this.length; i++) //遍历当前数组<br>
+{<br>
+if (!n[this[i]]) //如果hash表中没有当前项<br>
+{<br>
+n[this[i]] = true; //存入hash表<br>
+r.push(this[i]); //把当前数组的当前项push到临时数组里面<br>
+}<br>
+}<br>
+return r;<br>
+}<br>
+5. 5 5 5 5 5</p>
+<figure data-type="image" tabindex="1"><img src="https://bailixiyuan.github.io/post-images/1616764522562.jpg" alt="" loading="lazy"></figure>
+<p>综合题目：<br>
+由从服务器接收到的 HTML 形成 DOM（文档对象模型）。<br>
+样式被加载和解析，形成 CSSOM（CSS 对象模型）。<br>
+紧接着 DOM 和 CSSOM 创建了一个渲染树，这个渲染树是一些被渲染对象的集合（ Webkit 分别叫它们”renderer”和”render object”，而在Gecko 引擎中叫”frame”）。除了不可见的元素（比如 head 标签和一些有 display:none 属性的元素），渲染树映射了 DOM 的结构。在渲染树中，每一个文本字符串都被当做一个独立的 renderer。每个渲染对象都包含了与之对应的计算过样式的DOM 对象（或者一个文本块）。换句话说，渲染树描述了 DOM 的直观的表现形式。<br>
+对每个渲染元素来说，它的坐标是经过计算的，这被叫做“布局(layout)”。浏览器使用一种只需要一次处理的“流方法”来布局所有元素（tables需要多次处理）。<br>
+最后，将布局显示在浏览器窗口中，这个过程叫做“绘制(painting)”。</p>
 
                 </div>
             </article>
@@ -262,8 +331,8 @@ b、给子元素添加属性position:absolute；来定位子元素。<br>
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://bailixiyuan.github.io/post/ruan-jian-ce-shi-mian-shi-ti-mu/" class="post-title gt-a-link">
-                    软件测试面试题目
+                <a href="https://bailixiyuan.github.io/post/qian-duan-mian-shi-gao-pin-ti/" class="post-title gt-a-link">
+                    前端面试高频题
                 </a>
             </div>
         
