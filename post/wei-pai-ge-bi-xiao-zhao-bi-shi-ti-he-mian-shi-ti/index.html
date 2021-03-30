@@ -6,7 +6,7 @@
 
 <title>威派格笔校招笔试题和面试题 | 人间观察者</title>
 
-<link rel="shortcut icon" href="https://bailixiyuan.github.io/favicon.ico?v=1616898026135">
+<link rel="shortcut icon" href="https://bailixiyuan.github.io/favicon.ico?v=1617110027497">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://bailixiyuan.github.io/styles/main.css">
@@ -179,7 +179,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1616898026135"
+            <form id="gridea-search-form" style="position: relative" data-update="1617110027497"
                 action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -217,8 +217,8 @@
                 <div class="post-content">
                     <ol>
 <li><img src="https://bailixiyuan.github.io/post-images/1616741084321.jpg" alt="" loading="lazy"><br>
-【3】ABCD.盒子模型分为IE盒模型和普通盒模型，普通盒模型的宽计算为width加padding加border加margin，而IE盒模型的宽计算就是width，不包括padding及向外的值。<br>
-【4】B<br>
+【3】ABCD.盒子模型分为IE盒模型和普通盒模型(W3C标准)，普通盒模型的宽计算就是width，不包括padding及向外的值。而IE盒模型的width加padding加border加margin，<br>
+【4】A<br>
 js数组操作:<br>
 concat()合并两个数组<br>
 join(separator)返回一个字符串。该字符串是通过把 arrayObject 的每个元素转换为字符串，然后把这些字符串连接起来，在两个元素之间插入 separator 字符串而生成的。<br>
@@ -278,18 +278,22 @@ $(&quot;body&quot;).append(div1);<br>
 <img src="https://bailixiyuan.github.io/post-images/1616762145460.jpg" alt="" loading="lazy"><br>
 2.方法一：</li>
 </ol>
-<p>在父元素上设置</p>
-<p>display:table;<br>
+<p>在父元素上设置<br>
+/<strong>垂直居中</strong>/<br>
+display:table;<br>
 在子元素(div)上设置<br>
 display:table-cell;<br>
 vertical-align:middle;<br>
-方法二：</p>
-<p>简单粗暴，直接在父元素上设置</p>
-<p>/<strong>垂直居中</strong>/<br>
+方法二：<br>
+简单粗暴，直接在父元素上设置<br>
+/<strong>垂直居中</strong>/<br>
 align-items:center; display: -webkit-flex;<br>
 /<strong>水平居中</strong>/<br>
-justify-content:center; display: -webkit-flex;<br>
-3.	function fun1(arr)<br>
+justify-content:center; display: -webkit-flex;</p>
+<p>margin:0px auto</p>
+<ol start="3">
+<li>
+<p>function fun1(arr)<br>
 {<br>
 var newArr=[];<br>
 for(var i=0;i&lt;arr.length;i++)<br>
@@ -301,9 +305,8 @@ newArr.push(arr[i]);<br>
 }<br>
 return newArr;<br>
 }</p>
-<pre><code> function fun1()
-</code></pre>
-<p>{<br>
+<p>function fun1()<br>
+{<br>
 var n = {},r=[]; //n为hash表，r为临时数组<br>
 for(var i = 0; i &lt; this.length; i++) //遍历当前数组<br>
 {<br>
@@ -314,12 +317,16 @@ r.push(this[i]); //把当前数组的当前项push到临时数组里面<br>
 }<br>
 }<br>
 return r;<br>
-}<br>
-5. 5 5 5 5 5<br>
+}</p>
+</li>
+<li>
+<p>5 5 5 5 5<br>
 【例题】<br>
 <img src="https://bailixiyuan.github.io/post-images/1616897969877.png" alt="" loading="lazy"><br>
 ①Js是单线程的，Settimeout是异步宏任务，所以代码执行遇到异步的，就放在事件队列中的，等线程中的任务执行完后才会执行事件队列中的任务。② let是es6中声明变量的方式，有自己的作用域块，可以放变量，所以let绑定for循环时，每个i都有自己的值. 在这个for循环中就是满足一次条件向事件队列中添加一个打印i的事件，且每个事件中的i有自己的值 ③Var没有作用域块，for循环的变量就会后一个覆盖前一个，当循环完毕时i就只有一个值，又因为for循环的判断条件是不满足跳出，所以i最后是2而不是1 ④这些完了后执行事件队列中的任务，就打印了0122<br>
 <img src="https://bailixiyuan.github.io/post-images/1616764522562.jpg" alt="" loading="lazy"></p>
+</li>
+</ol>
 <p>综合题目：<br>
 由从服务器接收到的 HTML 形成 DOM（文档对象模型）。<br>
 样式被加载和解析，形成 CSSOM（CSS 对象模型）。<br>

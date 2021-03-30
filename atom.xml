@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bailixiyuan.github.io</id>
     <title>人间观察者</title>
-    <updated>2021-03-28T02:20:29.974Z</updated>
+    <updated>2021-03-30T13:13:49.997Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bailixiyuan.github.io"/>
     <link rel="self" href="https://bailixiyuan.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://bailixiyuan.github.io/images/avatar.png</logo>
     <icon>https://bailixiyuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 人间观察者</rights>
+    <entry>
+        <title type="html"><![CDATA[Vue面试题目]]></title>
+        <id>https://bailixiyuan.github.io/post/vue-mian-shi-ti-mu/</id>
+        <link href="https://bailixiyuan.github.io/post/vue-mian-shi-ti-mu/">
+        </link>
+        <updated>2021-03-28T11:36:48.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[威派格笔校招笔试题和面试题]]></title>
         <id>https://bailixiyuan.github.io/post/wei-pai-ge-bi-xiao-zhao-bi-shi-ti-he-mian-shi-ti/</id>
