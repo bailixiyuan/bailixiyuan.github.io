@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>软件测试面试题目 | 人间观察者</title>
+<title>大唐互联前端面试笔试 | 人间观察者</title>
 
 <link rel="shortcut icon" href="https://bailixiyuan.github.io/favicon.ico?v=1617201571384">
 
@@ -202,34 +202,81 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    软件测试面试题目
+                    大唐互联前端面试笔试
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2021-03-22 ·
+                        · 2021-03-31 ·
                     </time>
                     
-                        <a href="https://bailixiyuan.github.io/tag/ehle8X5_z/" class="post-tags">
-                            # 软件测试
+                        <a href="https://bailixiyuan.github.io/tag/8ArfGDtGP/" class="post-tags">
+                            # 前端面试题
                         </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>1.软件测试的目的是：发现软件的错误</p>
-<p>2.件测试过程分为：单元测试、集成测试、确认测试、系统测试（功能测试，性能测试，可靠性测试，安全性测试<br>
-（1）单元测试（也称模块测试）：针对软件设计的基本单元——程序模块，进行正确性检验的测试工作。目的在于发现各个模块内部可能存在的各种差错。单元测试需要从程序内部结构出发设计测试用例，多个模块可以平行、独立地进行测试；<br>
-（2）集成测试（也称组装测试，联合测试）：在单元测试的基础上，将所有模块按设计要求集成在一起进行测试，以检验总体设计中各模块间的接口设计问题、模块之间的相互影响、上层模块存在的各种差错及全局数据结构对系统的影响等方面。<br>
-（3）确认测试（也称验收测试，有效性测试）：主要检验软件的功能和性能是否与需求说明书中的规定一致。<br>
-（4）系统测试：将软件系统作为一个元素，放入整个实际的计算机系统中，与计算机硬件、其他软件、使用人员等系统元素结合在一起，在实际使用环境下进行综合全面的测试。<br>
-3.α测试是指软件开发公司组织内部人员模拟各类用户对即将面市软件产品（称为α版本）进行测试，试图发现错误并修正。α测试的关键在于尽可能逼真地模拟实际运行环境和用户对软件产品的操作并尽最大努力涵盖所有可能的 用户操作方式<br>
-经过α测试调整的软件产品称为β版本<br>
-β测试是由软件的多个用户在实际使用环境下进行的测试，这些用户返回有关错误信息给开发者。测试时，开发者通常不在测试现场。因而，β测试是在开发者无法控制的环境下进行的软件现场应用。在β测试中，由用户记下遇到的所有问题，包括真实的以及主观认定的，定期向开发者报告。β测试主要衡量产品的FLURPS，着重于产品的支持性，包括文档，客户培训和支持产品生产能力。 只有当α测试达到一定的可靠程度时，才能开始β测试。它处在整个测试的最后阶段。同时，产品的所有手册文本也应该在此阶段完全定稿。</p>
-<p>4.白盒测试方法包括：语句覆盖、判定覆盖、条件覆盖、判定条件覆盖、条件组合覆盖、路径覆盖。</p>
-<p>5.测试的关键问题是如何选择测测试用例</p>
-<p>6.软件测试一般分α、β、λ三个阶段，α是第一阶段，一般只供内部测试使用；β是第二个阶段，已经消除了软件中大部分的不完善之处，但仍有可能还存在缺陷和漏洞，一般只提供给特定的用户群来测试使用；λ是第三个阶段，此时产品已经相当成熟，只需在个别地方再做进一步的优化处理即可上市发行。</p>
-<p>单元测试-》详细设计文档<br>
-集成测试-》概括设计文档<br>
-系统测试=》系统设计文档</p>
+                    <p><img src="https://bailixiyuan.github.io/post-images/1617188853636.jpg" alt="" loading="lazy"><br>
+【1】<br>
+<img src="https://bailixiyuan.github.io/post-images/1617190421151.png" alt="" loading="lazy"><br>
+【2】<br>
+1、保持状态：cookie保存在浏览器端，session保存在服务器端<br>
+2、使用方式：<br>
+（1）cookie机制：如果不在浏览器中设置过期时间，cookie被保存在内存中，生命周期随浏览器的关闭而结束，这种cookie简称会话cookie。如果在浏览器中设置了cookie的过期时间，cookie被保存在硬盘中，关闭浏览器后，cookie数据仍然存在，直到过期时间结束才消失。<br>
+Cookie是服务器发给客户端的特殊信息，cookie是以文本的方式保存在客户端，每次请求时都带上它<br>
+（2）session机制：当服务器收到请求需要创建session对象时，首先会检查客户端请求中是否包含sessionid。如果有sessionid，服务器将根据该id返回对应session对象。如果客户端请求中没有sessionid，服务器会创建新的session对象，并把sessionid在本次响应中返回给客户端。通常使用cookie方式存储sessionid到客户端，在交互中浏览器按照规则将sessionid发送给服务器。如果用户禁用cookie，则要使用URL重写，可以通过response.encodeURL(url) 进行实现；API对encodeURL的结束为，当浏览器支持Cookie时，url不做任何处理；当浏览器不支持Cookie的时候，将会重写URL将SessionID拼接到访问地址后。<br>
+3、存储内容：cookie只能保存字符串类型，以文本的方式；session通过类似与Hashtable的数据结构来保存，能支持任何类型的对象(session中可含有多个对象)<br>
+4、存储的大小：cookie：单个cookie保存的数据不能超过4kb；session大小没有限制。<br>
+5、安全性：cookie：针对cookie所存在的攻击：Cookie欺骗，Cookie截获；session的安全性大于cookie。<br>
+在HTML5中，重新提供了一种在客户端本地保存数据的功能，它就是Web Storage。<br>
+具体来说，Web Storage又分为两种：<br>
+1.sessionStorage：将数据保存在session对象中。所谓session，是指用户在浏览某个网站时，从进入网站到浏览器关闭所经过的这段时间，也就是用户浏览这个网站所花费的时间。session对象可以用来保存在这段时间内所要求保存的任何数据。<br>
+2.localStorage：将数据保存在客户端本地的硬件设备(通常指硬盘，也可以是其他硬件设备)中，即使浏览器被关闭了，该数据仍然存在，下次打开浏览器访问网站时仍然可以继续使用。<br>
+这两者的区别在于，sessionStorage为临时保存，而localStorage为永久保存。<br>
+https://blog.csdn.net/jiangnanqbey/article/details/81709322<br>
+【3】栈与队列的相同点：<br>
+1.都是线性结构。<br>
+2.插入操作都是限定在表尾进行。<br>
+3.都可以通过顺序结构和链式结构实现。、<br>
+4.插入与删除的时间复杂度都是O（1），在空间复杂度上两者也一样。<br>
+5.多链栈和多链队列的管理模式可以相同。<br>
+栈与队列的不同点：<br>
+1.删除数据元素的位置不同，栈的删除操作在表尾进行，队列的删除操作在表头进行。<br>
+2.应用场景不同；常见栈的应用场景包括括号问题的求解，表达式的转换和求值，函数调用和递归实现，深度优先搜索遍历等；常见的队列的应用场景包括计算机系统中各种资源的管理，消息缓冲器的管理和广度优先搜索遍历等。<br>
+3.顺序栈能够实现多栈空间共享，而顺序队列不能。<br>
+<img src="https://bailixiyuan.github.io/post-images/1617191518620.png" alt="" loading="lazy"><br>
+【4】<br>
+例：var obj = new Base();<br>
+该步一共做了三件事：即<br>
+var obj  = {};<br>
+obj.<strong>proto</strong> = Base.prototype;<br>
+Base.call(obj);<br>
+第一行，我们创建了一个空对象obj<br>
+第二行，我们将这个空对象的proto成员指向了Base函数对象prototype成员对象<br>
+第三行，我们将Base函数对象的this指针替换成obj。<br>
+【5】<br>
+(```)<br>
+var i=1;<br>
+var count=0;<br>
+function myFunction()<br>
+{<br>
+var j;<br>
+for(i;i&lt;=100;i++)<br>
+{<br>
+j=i;<br>
+while(j)<br>
+{<br>
+if(j%10==1)<br>
+{<br>
+count++;<br>
+}<br>
+j=Math.floor(j/10);<br>
+}</p>
+<pre><code>}
+</code></pre>
+<p>}<br>
+myFunction();<br>
+alert(count);<br>
+(```)</p>
 
                 </div>
             </article>
@@ -238,8 +285,8 @@
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://bailixiyuan.github.io/post/hello-gridea/" class="post-title gt-a-link">
-                    Hello Gridea
+                <a href="https://bailixiyuan.github.io/post/qian-duan-jing-chang-yu-dao-de-mian-shi-ti-mu/" class="post-title gt-a-link">
+                    前端经常遇到的面试题目
                 </a>
             </div>
         
